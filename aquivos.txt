@@ -1,0 +1,168 @@
+Firefox: Raposa ou Panda-Vermelho? Conheça a história do mascote
+Se você utiliza o Mozilla Firefox, provavelmente já se perguntou que animal é aquele que abraça o globo terrestre em seu logotipo. À primeira vista, a cauda felpuda e as orelhas pontudas não deixam dúvidas: é uma raposa. No entanto, a resposta oficial da Mozilla revela uma curiosidade que surpreende muitos usuários.
+
+Afinal, qual é o animal?
+Embora o logotipo estilizado remeta visualmente a uma raposa, o mascote oficial do navegador é, na verdade, um panda-vermelho (Ailurus fulgens).
+
+O panda-vermelho é um pequeno mamífero nativo do Himalaia e do sudoeste da China. Ele possui pelagem avermelhada e uma cauda longa e anelada, características que o tornam muito semelhante a uma raposa. A confusão ocorre porque, em inglês, um dos apelidos desse animal é justamente "Firefox" (raposa de fogo).
+
+Por que o nome Firefox?
+A escolha do nome não foi a primeira opção da Mozilla. O projeto nasceu em 2002 sob o codinome Phoenix (Fênix), simbolizando o renascimento do navegador após a "queda" do Netscape. Devido a problemas de marca registrada com uma empresa de tecnologia, o nome foi alterado para Firebird. Novamente, houve um conflito, desta vez com um projeto de banco de dados de código aberto.
+
+Finalmente, em 2004, a fundação adotou o nome Firefox. Além de ser um nome único e fácil de lembrar, ele mantinha a identidade visual de "fogo" e "rapidez" que a equipe desejava transmitir.
+
+O Design do Logotipo
+A confusão entre os animais também tem uma explicação técnica. Quando o designer John Hicks foi responsável por criar o ícone, ele se deparou com um desafio: o panda-vermelho não era um animal amplamente conhecido pelo público global.
+
+Para que a marca fosse identificável e transmitisse agilidade, Hicks utilizou traços que lembram uma raposa, resultando na famosa imagem da "raposa de fogo" que envolve o planeta. Assim, enquanto o nome homenageia o panda-vermelho, o desenho foi inspirado em ilustrações de raposas para garantir um visual mais impactante e veloz.
+
+A Mozilla e a Preservação
+A ligação com o panda-vermelho é levada a sério pela Mozilla. Em diversas ocasiões, a organização promoveu campanhas de conscientização sobre a espécie, que está em perigo de extinção. Em 2010, a fundação chegou a adotar dois filhotes de pandas-vermelhos no zoológico de Knoxville, nos Estados Unidos, transmitindo a rotina dos animais ao vivo para os internautas.
+
+Resumo da Curiosidade
+O Nome: Significa "Panda-Vermelho" em inglês.
+
+O Desenho: Foi inspirado em uma raposa por questões estéticas e de reconhecimento.
+
+O Veredito: Oficialmente, o mascote é um panda-vermelho, mas visualmente ele é representado como uma raposa.
+
+
+
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.137);
+}
+
+nav > a {
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+    padding: 2px 8px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.151);
+}
+
+aside>h3 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside>ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
