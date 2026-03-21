@@ -32,13 +32,13 @@
     --fonte-principal: "Space Mono", monospace;;
 }
 header {
-    background-color: var(--cor-fundo);
+    background-color: var(--laranja-secundario);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
 header h1{
-    color: var(--laranja-primario);
+    color: var(--texto-claro);
     font-family: var(--fonte-principal);
     font-size: 3em;
     font-weight: bold;
@@ -50,7 +50,7 @@ header p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     font-weight: bold;
-    color: var(--texto-principal);
+    color: var(--texto-claro);
     max-width: 600px;
     padding: 0px 10px;
     margin: auto;
@@ -61,9 +61,8 @@ header p {
 main {
     display: flex;
     flex-direction: column;
-    min-width: 300px;
-    max-width: 1000px;
-    margin: 30px auto;
+    width: 90vw;
+    margin: auto;
     padding: 20px;
     background-color: white;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.322);
@@ -133,9 +132,10 @@ aside h3 {
 aside ol {
     list-style-type: '\2714\00A0';
     list-style-position: inside;
-    columns: 1;
 }
-
+aside ol li{
+    margin: 10px 0px;
+}
 footer {
     background-color: var(--fundo-rodape);
     color: var(--texto-claro);
